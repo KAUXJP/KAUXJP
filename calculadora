@@ -1,0 +1,18 @@
+def soma(a, b):
+    return a + b
+
+def subtracao(a, b):
+    return a - b
+
+if __name__ == " __main__":
+    print(soma(10, 5))
+    print(subtracao(10, 5))
+
+def multiplicacao(a, b):
+    return a * b
+
+def divisoao(a, b):
+     if b == 0:
+        return "Divisao por zero não é permitida
+     return a / b
+  
